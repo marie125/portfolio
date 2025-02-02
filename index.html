@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--          ------------------- UNICONS -------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+     <!--          ------------------- CSS -------------------- -->
+     <link rel="stylesheet" href="assets/css/style.css">
+     <!--          ------------------- faveicons-------------------- -->
+       <link rel="shortcut icon" href="assets/images/img.png" type="image/x-icon">
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="container relative">
+     <!--          -------------------HEADER -------------------- -->
+     <nav id="header">
+         <div class="nav-logo">
+             <P class="nav-name">Marie</P>
+             <span> . </span>
+         </div>
+         <div class="nav-menu" id="mynavMenu">
+             <ul class="nav_menu_list">
+                 <li class="nav_list">
+                     <a href="#home" class="nav-link active-link "> Home</a>
+                     <div class="circle"></div>
+                 </li>
+                 <li class="nav_list">
+                    <a href="#about" class="nav-link">About</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#projects" class="nav-link"> Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#contact" class="nav-link">Conctact</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="#students" class="nav-link ">Students</a>
+                    <div class="circle"></div>
+                </li>
+             </ul>
+         </div>
+         <div class="nav-button">
+             <button class="btn" onclick="window.location.href='cv.pdf'"> Download CV  <i class="fa-solid fa-file"></i></button>
+         </div>
+         <div class="nav-menu-btn">
+            <i class="fa-solid fa-bars" onclick="mymenufunction()"></i>
+         </div>
+     </nav>
+
+
+      <!--          ------------------- MAIN  -------------------- -->
+      <main class="wrapper relative">
+       <!--          ------------------- FEATURED BOX -------------------- --> 
+          <section class="featured-box" id="home">
+            <div class="featured-text">
+                  <div class="featured-text-card">
+                      <span> Maré Ouffoué</span>
+                 </div> 
+              
+                <div class="featured-name">
+                  <p> Je suis <span class="typedtext"> Développeur </span></p>
+                </div>
+                <div class="featured-text-info">
+                  <p> experienced frontend developer with a passion for crating visually stunning and user-friendly websites.</p>
+                </div>
+                <div class="featured-text-btn">
+                  <button class="btn blue-btn"> Hire Me</button>
+                  <button class="btn"> Download CV <i class="fa-solid fa-file"></i></button>
+                </div>
+                <div class="social-icons">
+                  <div class="icon"> <i class="fa-brands fa-instagram"></i></div>
+                  <div class="icon"> <i class="fa-brands fa-linkedin"></i></div>
+                  <div class="icon"><i class="fa-brands fa-dribbble"></i></div>
+                  <div class="icon"> <i class="fa-brands fa-github"></i></div>
+
+                </div>
+            </div>
+            <div class="featured-image">
+                <div class="image">
+                    <img src="assets/images/anzata-ouattara.jpg" alt="kiki">
+                </div>
+            </div>
+            <div class="scroll-icon-box">
+                <a href="#about" class="scroll-btn">
+                    <i class="fa-solid fa-computer-mouse"></i>
+                    <p> Scrool Down </p>
+                </a>
+            </div>
+          </section>
+          <!--          ------------------- ABOUT  -------------------- -->
+          <section class="section" id="about">
+              <div class="top-header">
+                  <h1> About Me</h1>
+              </div>
+              <div class="row">
+                  <div class="col">
+                      <div class="about-info">
+                          <h3> My introduction</h3> 
+                          <p> I am well-versed in HTMl, CSS and Javascript ,and hover cutting edge frameworks and libraries 
+                              ,wich allows me to implements interactive features. Additionally ,I have experience working with content
+                              management systems (CMS) like wordpress.
+                          </p>
+                          <div class="about-btn">
+                              <button><div class="btn"> Download CV <i class="fa-solid fa-upload"></i></div></button>
+                          </div> 
+                      </div>
+                  </div>
+                  <div class="col">
+                      <div class="skills-box">
+                          <div class="skills-header">
+                              <h3> Frontend</h3>
+                          </div>
+                          <div class="skills-list">
+                              <span> HTML</span>
+                              <span> CSS</span>
+                              <span>JavaScript</span>
+                          </div>
+                      </div>
+                      <div class="skills-box">
+                        <div class="skills-header">
+                            <h3> Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span> PHP</span>
+                            <span>JAVA</span>
+                            <span>WLANGAGE</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3> DATABASE</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySql</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </section> 
+          <!--          ------------------- Projects  -------------------- -->
+         
+          <section class="section" id="projects">
+              <div class="top-header">
+                  <h1> Projects </h1>
+              </div>
+              <div class="projects-container">
+                  <div class="project-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                     <h3>Completed</h3> 
+                     <label> 15+ Finished Projects</label> 
+                  </div> 
+                  <div class="project-box">
+                    <i class="fa-solid fa-user"></i>
+                     <h3>Clients</h3> 
+                     <label> 15+ Happy Clients</label> 
+                  </div> 
+                  <div class="project-box">
+                    <i class="fa-solid fa-award"></i>
+                     <h3>Experience</h3> 
+                     <label> 7+ Years in the field</label> 
+                  </div>
+              </div>
+            </section>
+            
+          <!--          ------------------- Contact  -------------------- -->
+         <section class="section" id="contact">
+            <div class="top-header">
+                 <h1> Get in touch</h1>
+                 <span> Do you have a project in your mind, contact me here</span>
+            </div>
+            <div class="row"> 
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Find Me  <i class="fa-solid fa-arrow-down"></i></h2>
+                        <p><i class="fa-solid fa-envelope"></i> Email:mariechristin@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>Tel: +255 05.74.03.19.35</p>
+                        
+                    </div>
+                </div>
+                <div class="col">
+                <form  method="POST" action="enregistrer.php" >
+                    <div class="form-control">
+                        <div class="form-inputs">
+                           <input type="text" class="input-field" placeholder="Name" name="nom">
+                           <input type="text" class="input-field" placeholder="Email" name="email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="message" name="msg"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn" type="submit"> send<i class="fa-solid fa-message"></i> </button>  
+                        </div>
+                    </div>
+                    <p class="succesm"> </p>
+
+                </form>
+                </div>
+
+            </div>
+         </section>
+         <!--          ------------------- slider  -------------------- -->
+         <section  class="secslide" id="students">
+            <div class="top-header">
+                <h1> Students </h1>
+            </div>
+               <div class="container-slider">
+                      <div class="slide">
+                          <div class="slide-image">
+                              <img src="assets/images/slider/20.jpg" alt="image personne" width="100%" height="400px" >
+                          </div>
+                          <div class="slide-details  box">
+                            <div class="slide-title"> Etudiant à l'UAO de bouaké </div>
+                            <div class="slide-information">Etudiant en master1 d'informatique spécialisé en base de donnée genie logiciel, vous pouvez le contactez en cas de besoin au numéro suivant: 05 74 03 19 35 </div>
+                          </div>
+                      </div>
+                      <div class="slide">
+                        <div class="slide-image">
+                            <img src="assets/images/slider/21.jpg" alt="image personne" width="100%" height="400px" >
+                        </div>
+                        <div class="slide-details  box">
+                          <div class="slide-title"> Etudiant à l'UAO de bouaké </div>
+                          <div class="slide-information">Etudiant en master1 d'informatique spécialisé en base de donnée genie logiciel, vous pouvez le contactez en cas de besoin au numéro suivant: 05 74 03 19 35 </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-image">
+                            <img src="assets/images/slider/2.png" alt="image personne" width="100%" height="400px" >
+                        </div>
+                        <div class="slide-details  box">
+                          <div class="slide-title"> Etudiant à l'UAO de bouaké </div>
+                          <div class="slide-information">Etudiant en master1 d'informatique spécialisé en base de donnée genie logiciel, vous pouvez le contactez en cas de besoin au numéro suivant: 05 74 03 19 35 </div>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <div class="slide-image">
+                            <img src="assets/images/slider/3.png" alt="image personne" width="100%" height="400px" >
+                        </div>
+                        <div class="slide-details  box">
+                          <div class="slide-title"> Etudiant à l'UAO de bouaké </div>
+                          <div class="slide-information">Etudiant en master1 d'informatique spécialisé en base de donnée genie logiciel, vous pouvez le contactez en cas de besoin au numéro suivant: 05 74 03 19 35 </div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="prev" id="prev"> &#10094;</div>
+                 <div class="next" id="next">&#10095;</div>
+                 <div class="dots absolute textcenter " id="dots">
+                    <!--   <span class="dot"></span>
+                      <span class="dot"></span>
+                      <sapn class="dot"></sapn>
+                  </div> -->
+         </section>
+        
+        
+       
+                    
+      </main>
+
+    <!--          ------------------- footer  -------------------- -->
+              <footer>
+                <div class="top-footer">
+                    <p> Maré Ouffoué .</p>
+                </div>
+                <div class="middle-footer">
+                    <ul class="menu-footer">
+                        <li class="footer-menu-list">
+                            <a href=" #home"> Home</a>
+                        </li>
+                        <li class="footer-menu-list">
+                            <a href=" #about">About</a>
+                        </li>
+                        <li class="footer-menu-list">
+                            <a href=" #project"> Projects</a>
+                        </li>
+                        <li class="footer-menu-list">
+                            <a href=" #contact"> Contact</a> 
+                        </li>
+                    </ul>
+                </div>
+                <div class="bottom-footer">
+                    <p> Copyright &copy;<a href="#home" style="text-decoration: none;"> Maré Ouffoué </a> - All rights reserved</p>
+                </div>
+              </footer>
+  </div>
+    
+    <!--          ------------------- typing js link  -------------------- -->
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+      
+      <!--          -------------------scrool reveal js link  -------------------- -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.min.js" integrity="sha512-Kr+RPfLjQ71E0cJ9nseJ6jwTrnmMnuSPnnsVQQ/ZYYCjOHKfJcWj8ILICXnvf9A7ZQChNzIbr9x/ZAxA6xAZlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+       
+      <!--          ------------------- MAIN  js -------------------- -->
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/functions/slider.js"></script>
+      <script src="assets/js/functions/listeners.js"></script>
+     <script src="assets/js/functions/appelslider.js"></script>
+</body>
+</html>
